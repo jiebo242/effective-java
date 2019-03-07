@@ -25,6 +25,14 @@
             <optional>true</optional>
         </dependency>
 
+        <!--AutoValue依赖包-->
+        <dependency>
+            <groupId>com.google.auto.value</groupId>
+            <artifactId>auto-value</artifactId>
+            <version>1.5.1</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
 </project>
