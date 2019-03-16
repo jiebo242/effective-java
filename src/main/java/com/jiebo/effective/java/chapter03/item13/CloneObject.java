@@ -22,7 +22,7 @@ public class CloneObject implements Cloneable {
     //基本类型
     private int num;
 
-    //引用类型-字符串类型
+    //引用类型-字符串类型(因为String是不可变对象，当它变的时候实际上是一个新的对象了，所以克隆对它没影响或者说没必要)
     private String cloneString;
 
     //引用类型-实体
